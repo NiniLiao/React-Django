@@ -6,6 +6,7 @@ export class Header extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
+      <div className="container">     
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
         </button>
@@ -19,6 +20,7 @@ export class Header extends Component {
                 <Link to="/login" className="nav-link">Login</Link>
               </li>
             </ul>
+        </div>
         </div>
       </nav>  
     )
